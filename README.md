@@ -1,5 +1,7 @@
 # track-em
 
+These codes are for the analysis of a set of experiments measuring te transport of glass beads in an artificial flume using stereoscopic computer vision from a binocular pair of cameras. 
+
 1) Identify moving particles from the background with background_subtraction
 2) Link moving particles into 2d trajectories with linking_2d, powered by trackpy 
 3) Link pairs of trajectories from left and right views as an assignment problem with linking_3d
